@@ -20,7 +20,7 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.find do |x|
-    x == cheese_types
+    x == "cheddar", x == "gouda" x == "camembert"
   end
   
 end
