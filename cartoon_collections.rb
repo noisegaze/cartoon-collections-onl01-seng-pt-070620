@@ -18,9 +18,9 @@ array.any? do |word|
   end 
 end
 
-def find_the_cheese(array.find)
+def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  cheese_types.find do |x|
+  array.find do |x|
     x == "cheddar"|| x == "gouda" || x == "camembert"
   end
   
